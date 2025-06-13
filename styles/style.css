@@ -1,5 +1,56 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background-color: #000028;
+  background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+
+.header {
+  font-family: "IBM Plex Mono";
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  align-items: center;
+  height: 100vh;
+  min-height: 668px;
+  position: relative;
+  padding: 10px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  font-size: 18px;
+  text-transform: lowercase;
+  color: #ff0070;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  min-inline-size: 70px;
+}
+
+.header__title {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  color: #db00ff;
+  text-shadow: 4px 4px 0px #ff0070;
+}
+
+.title-decor {
+  height: max-content;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  color: #000028;
+  background-color: #ff0070;
 }
