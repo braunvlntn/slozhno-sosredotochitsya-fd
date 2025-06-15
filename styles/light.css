@@ -24,6 +24,7 @@
 }
 
 .theme-light .page {
+  background-image: url(../images/cover-image-light.png);
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
@@ -44,6 +45,10 @@
   }
   .theme-auto .page .header__rec {
     display: none;
+  }
+
+  .theme-auto .page {
+    background-image: url(../images/cover-image-light.png);
   }
 }
 
