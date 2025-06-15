@@ -2,3 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-color: #000028;
+  --decorated-zone-color: #ff0070;
+  --header-title-color: #db00ff;
+  --header-title-shadow: #ff0070;
+  --nav-text-color: #ff0070;
+  --decor-bg-color: #ff0070;
+  --decor-text-color: #000028;
+  --section-title-color: #ff0070;
+  --section-text-color: #f1b2ce;
+  --link-accent-color: #ff0070;
+}
