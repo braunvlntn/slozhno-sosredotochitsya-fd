@@ -19,6 +19,8 @@
   --section-title-color: #ff0070;
   --section-text-color: #f1b2ce;
   --link-accent-color: #ff0070;
+
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .page {
