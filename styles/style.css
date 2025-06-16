@@ -89,6 +89,7 @@
   background-color: transparent;
   text-align: center;
   min-inline-size: 70px;
+  transition: all 1s;
 }
 
 .header__theme-menu-button:hover {
@@ -106,7 +107,6 @@
 .header__theme-menu-button_active {
   outline: 1px solid var(--nav-text-color);
   pointer-events: none;
-  transition: all 1s;
 }
 
 .header__title {
