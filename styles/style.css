@@ -154,16 +154,19 @@
   outline: 1px solid var(--section-text-color);
 }
 
-.text__section-title {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.text_section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-block-start: 20px;
+}
+
+.section_subtitle {
+  margin-block-end: 19px;
 }
 
 .text__section-subtitle {
-  margin-top: 20px;
-  margin-bottom: 10px;
-
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .text__section-description {
@@ -258,11 +261,12 @@
   }
 
   .text_section {
+    padding-top: 0;
     margin-bottom: 20px;
   }
 
-  .text__section-title {
-    margin-top: 0;
+  .section-subtitle {
+    margin-bottom: 20px;
   }
 
   .images-list {
