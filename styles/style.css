@@ -158,11 +158,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-block-start: 20px;
+  padding-top: 20px;
 }
 
 .section_subtitle {
-  margin-block-end: 19px;
+  margin-top: 20px;
 }
 
 .text__section-subtitle {
@@ -265,7 +265,8 @@
     margin-bottom: 20px;
   }
 
-  .section-subtitle {
+  .section_subtitle {
+    margin-top: 0;
     margin-bottom: 20px;
   }
 
