@@ -9,6 +9,9 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+.theme-light .page {
   --bg-color: #fff1f7;
   --decorated-zone-color: #353430;
   --header-title-color: #ffc2e6;
@@ -20,16 +23,14 @@
   --section-text-color: #353430;
   --link-accent-color: #ff8dcb;
   --nav-hover-color: #32312d66;
+  --footer-title-shadow: #ff0070;
 
   background-image: url(../images/cover-image-light.png);
+  /* Вам также 
+  нужно будет написать ряд подобных селекторов */
 }
 
-.theme-light .page {
-  background-image: url(../images/cover-image-light.png);
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.theme-light .page .header__rec {
+.theme-light .header__rec {
   display: none;
 }
 
@@ -46,14 +47,13 @@
     --section-text-color: #353430;
     --link-accent-color: #ff8dcb;
     --nav-hover-color: #32312d66;
-
-    background-image: url(../images/cover-image-light.png);
+    --footer-title-shadow: #ff0070;
   }
-  .theme-auto .page .header__rec {
+  .page {
+    background-image: url(../images/cover-image-light.png);
+    background-color: var(--bg-color);
+  }
+  .header__rec {
     display: none;
-  }
-
-  .theme-auto .page {
-    background-image: url(../images/cover-image-light.png);
   }
 }

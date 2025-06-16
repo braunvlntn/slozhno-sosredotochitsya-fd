@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background-image: url(../images/cover-image-dark.png);
   background-color: var(--bg-color);
   background-size: cover;
   background-position: center;
@@ -132,7 +133,6 @@
   flex-wrap: nowrap;
   gap: 50px;
   padding: 40px 10px;
-  background-color: var(--bg-color);
 }
 
 .title {
@@ -200,7 +200,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   color: var(--header-title-color);
-  text-shadow: 2px 2px 0 var(--header-title-shadow);
+  text-shadow: 2px 2px 0 var(--footer-title-shadow);
 }
 
 @media (width >= 768px) {
